@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27422D6A241C15A0006621A6 /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27422D69241C15A0006621A6 /* PreferencesView.swift */; };
+		27422D6C241C1600006621A6 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27422D6B241C1600006621A6 /* HostingController.swift */; };
+		27422D6E241C24E5006621A6 /* ToolbarButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27422D6D241C24E5006621A6 /* ToolbarButtonStyle.swift */; };
+		27422D73241C3A69006621A6 /* DynamicContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27422D72241C3A69006621A6 /* DynamicContent.swift */; };
+		27422D75241C3BFF006621A6 /* DynamicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27422D74241C3BFF006621A6 /* DynamicContentView.swift */; };
+		27422D77241C43AA006621A6 /* DynamicContentResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27422D76241C43AA006621A6 /* DynamicContentResponse.swift */; };
+		27422D79241C4522006621A6 /* DynamicContentRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27422D78241C4521006621A6 /* DynamicContentRequest.swift */; };
+		27422D7B241C4802006621A6 /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27422D7A241C4802006621A6 /* Spinner.swift */; };
+		2768885B2416C4160044D0B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2768885A2416C4160044D0B4 /* AppDelegate.swift */; };
+		2768885D2416C4160044D0B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2768885C2416C4160044D0B4 /* ContentView.swift */; };
+		276888602416C4160044D0B4 /* Zentools.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2768885E2416C4160044D0B4 /* Zentools.xcdatamodeld */; };
+		276888622416C41A0044D0B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 276888612416C41A0044D0B4 /* Assets.xcassets */; };
+		276888652416C41A0044D0B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 276888642416C41A0044D0B4 /* Preview Assets.xcassets */; };
+		276888682416C41A0044D0B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 276888662416C41A0044D0B4 /* Main.storyboard */; };
+		276888712416D2540044D0B4 /* TicketFieldsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276888702416D2540044D0B4 /* TicketFieldsResponse.swift */; };
+		276888732416D2910044D0B4 /* TicketField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276888722416D2910044D0B4 /* TicketField.swift */; };
+		27985BF3241704670043092F /* TicketFieldRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27985BF2241704670043092F /* TicketFieldRequest.swift */; };
+		27985BF5241705500043092F /* TicketFieldResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27985BF4241705500043092F /* TicketFieldResponse.swift */; };
+		27985BF724196B1A0043092F /* TicketFieldOptionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27985BF624196B1A0043092F /* TicketFieldOptionRequest.swift */; };
+		27985BF9241970EB0043092F /* TicketForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27985BF8241970EB0043092F /* TicketForm.swift */; };
+		27985BFB241972BA0043092F /* TicketFormsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27985BFA241972BA0043092F /* TicketFormsResponse.swift */; };
+		27985BFD241976480043092F /* TicketFormRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27985BFC241976480043092F /* TicketFormRequest.swift */; };
+		27985BFF2419948F0043092F /* Throttler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27985BFE2419948F0043092F /* Throttler.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		27422D69241C15A0006621A6 /* PreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
+		27422D6B241C1600006621A6 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		27422D6D241C24E5006621A6 /* ToolbarButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarButtonStyle.swift; sourceTree = "<group>"; };
+		27422D72241C3A69006621A6 /* DynamicContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicContent.swift; sourceTree = "<group>"; };
+		27422D74241C3BFF006621A6 /* DynamicContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicContentView.swift; sourceTree = "<group>"; };
+		27422D76241C43AA006621A6 /* DynamicContentResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicContentResponse.swift; sourceTree = "<group>"; };
+		27422D78241C4521006621A6 /* DynamicContentRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicContentRequest.swift; sourceTree = "<group>"; };
+		27422D7A241C4802006621A6 /* Spinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
+		276888572416C4160044D0B4 /* Zentools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zentools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2768885A2416C4160044D0B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2768885C2416C4160044D0B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2768885F2416C4160044D0B4 /* Zentools.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Zentools.xcdatamodel; sourceTree = "<group>"; };
+		276888612416C41A0044D0B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		276888642416C41A0044D0B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		276888672416C41A0044D0B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		276888692416C41A0044D0B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2768886A2416C41A0044D0B4 /* Zentools.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Zentools.entitlements; sourceTree = "<group>"; };
+		276888702416D2540044D0B4 /* TicketFieldsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketFieldsResponse.swift; sourceTree = "<group>"; };
+		276888722416D2910044D0B4 /* TicketField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketField.swift; sourceTree = "<group>"; };
+		27985BF2241704670043092F /* TicketFieldRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketFieldRequest.swift; sourceTree = "<group>"; };
+		27985BF4241705500043092F /* TicketFieldResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketFieldResponse.swift; sourceTree = "<group>"; };
+		27985BF624196B1A0043092F /* TicketFieldOptionRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketFieldOptionRequest.swift; sourceTree = "<group>"; };
+		27985BF8241970EB0043092F /* TicketForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketForm.swift; sourceTree = "<group>"; };
+		27985BFA241972BA0043092F /* TicketFormsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketFormsResponse.swift; sourceTree = "<group>"; };
+		27985BFC241976480043092F /* TicketFormRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketFormRequest.swift; sourceTree = "<group>"; };
+		27985BFE2419948F0043092F /* Throttler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Throttler.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		276888542416C4160044D0B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27422D6F241C39EF006621A6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				27422D74241C3BFF006621A6 /* DynamicContentView.swift */,
+				27422D7A241C4802006621A6 /* Spinner.swift */,
+				27422D69241C15A0006621A6 /* PreferencesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		27422D70241C39F9006621A6 /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				27422D6D241C24E5006621A6 /* ToolbarButtonStyle.swift */,
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		27422D71241C3A01006621A6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				27985BFE2419948F0043092F /* Throttler.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		2768884E2416C4160044D0B4 = {
+			isa = PBXGroup;
+			children = (
+				276888592416C4160044D0B4 /* Zentools */,
+				276888582416C4160044D0B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		276888582416C4160044D0B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				276888572416C4160044D0B4 /* Zentools.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		276888592416C4160044D0B4 /* Zentools */ = {
+			isa = PBXGroup;
+			children = (
+				276888742416F0000044D0B4 /* Models */,
+				27422D71241C3A01006621A6 /* Helpers */,
+				27422D70241C39F9006621A6 /* ViewModifiers */,
+				27422D6F241C39EF006621A6 /* Views */,
+				2768885A2416C4160044D0B4 /* AppDelegate.swift */,
+				2768885C2416C4160044D0B4 /* ContentView.swift */,
+				276888612416C41A0044D0B4 /* Assets.xcassets */,
+				276888662416C41A0044D0B4 /* Main.storyboard */,
+				27422D6B241C1600006621A6 /* HostingController.swift */,
+				276888692416C41A0044D0B4 /* Info.plist */,
+				2768886A2416C41A0044D0B4 /* Zentools.entitlements */,
+				2768885E2416C4160044D0B4 /* Zentools.xcdatamodeld */,
+				276888632416C41A0044D0B4 /* Preview Content */,
+			);
+			path = Zentools;
+			sourceTree = "<group>";
+		};
+		276888632416C41A0044D0B4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				276888642416C41A0044D0B4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		276888742416F0000044D0B4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				27422D78241C4521006621A6 /* DynamicContentRequest.swift */,
+				27422D76241C43AA006621A6 /* DynamicContentResponse.swift */,
+				27985BFC241976480043092F /* TicketFormRequest.swift */,
+				27985BFA241972BA0043092F /* TicketFormsResponse.swift */,
+				27985BF8241970EB0043092F /* TicketForm.swift */,
+				276888702416D2540044D0B4 /* TicketFieldsResponse.swift */,
+				27985BF4241705500043092F /* TicketFieldResponse.swift */,
+				27985BF2241704670043092F /* TicketFieldRequest.swift */,
+				27985BF624196B1A0043092F /* TicketFieldOptionRequest.swift */,
+				276888722416D2910044D0B4 /* TicketField.swift */,
+				27422D72241C3A69006621A6 /* DynamicContent.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		276888562416C4160044D0B4 /* Zentools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2768886D2416C41A0044D0B4 /* Build configuration list for PBXNativeTarget "Zentools" */;
+			buildPhases = (
+				276888532416C4160044D0B4 /* Sources */,
+				276888542416C4160044D0B4 /* Frameworks */,
+				276888552416C4160044D0B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zentools;
+			productName = Zentools;
+			productReference = 276888572416C4160044D0B4 /* Zentools.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2768884F2416C4160044D0B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Samuel Coe";
+				TargetAttributes = {
+					276888562416C4160044D0B4 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 276888522416C4160044D0B4 /* Build configuration list for PBXProject "Zentools" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2768884E2416C4160044D0B4;
+			productRefGroup = 276888582416C4160044D0B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				276888562416C4160044D0B4 /* Zentools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		276888552416C4160044D0B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276888682416C41A0044D0B4 /* Main.storyboard in Resources */,
+				276888652416C41A0044D0B4 /* Preview Assets.xcassets in Resources */,
+				276888622416C41A0044D0B4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		276888532416C4160044D0B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27422D77241C43AA006621A6 /* DynamicContentResponse.swift in Sources */,
+				27985BF5241705500043092F /* TicketFieldResponse.swift in Sources */,
+				2768885D2416C4160044D0B4 /* ContentView.swift in Sources */,
+				27985BFF2419948F0043092F /* Throttler.swift in Sources */,
+				27422D6A241C15A0006621A6 /* PreferencesView.swift in Sources */,
+				27422D6C241C1600006621A6 /* HostingController.swift in Sources */,
+				27985BFB241972BA0043092F /* TicketFormsResponse.swift in Sources */,
+				27422D6E241C24E5006621A6 /* ToolbarButtonStyle.swift in Sources */,
+				2768885B2416C4160044D0B4 /* AppDelegate.swift in Sources */,
+				27985BF724196B1A0043092F /* TicketFieldOptionRequest.swift in Sources */,
+				27422D79241C4522006621A6 /* DynamicContentRequest.swift in Sources */,
+				27985BF3241704670043092F /* TicketFieldRequest.swift in Sources */,
+				27985BF9241970EB0043092F /* TicketForm.swift in Sources */,
+				27422D75241C3BFF006621A6 /* DynamicContentView.swift in Sources */,
+				27985BFD241976480043092F /* TicketFormRequest.swift in Sources */,
+				276888602416C4160044D0B4 /* Zentools.xcdatamodeld in Sources */,
+				276888732416D2910044D0B4 /* TicketField.swift in Sources */,
+				276888712416D2540044D0B4 /* TicketFieldsResponse.swift in Sources */,
+				27422D73241C3A69006621A6 /* DynamicContent.swift in Sources */,
+				27422D7B241C4802006621A6 /* Spinner.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		276888662416C41A0044D0B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				276888672416C41A0044D0B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2768886B2416C41A0044D0B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2768886C2416C41A0044D0B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2768886E2416C41A0044D0B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Zentools/Zentools.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Zentools/Preview Content\"";
+				DEVELOPMENT_TEAM = A9698584MV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Zentools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.samuelcoe.Zentools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2768886F2416C41A0044D0B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Zentools/Zentools.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Zentools/Preview Content\"";
+				DEVELOPMENT_TEAM = A9698584MV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Zentools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.samuelcoe.Zentools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		276888522416C4160044D0B4 /* Build configuration list for PBXProject "Zentools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2768886B2416C41A0044D0B4 /* Debug */,
+				2768886C2416C41A0044D0B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2768886D2416C41A0044D0B4 /* Build configuration list for PBXNativeTarget "Zentools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2768886E2416C41A0044D0B4 /* Debug */,
+				2768886F2416C41A0044D0B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2768885E2416C4160044D0B4 /* Zentools.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2768885F2416C4160044D0B4 /* Zentools.xcdatamodel */,
+			);
+			currentVersion = 2768885F2416C4160044D0B4 /* Zentools.xcdatamodel */;
+			path = Zentools.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2768884F2416C4160044D0B4 /* Project object */;
+}
